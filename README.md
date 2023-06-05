@@ -14,16 +14,16 @@ Make sure you have the following dependencies installed:
 
 1. Clone the repository:
 
-git clone <repository_url>
+- git clone https://github.com/kodicw/y2mp4
 
 2. Install the dependencies:
 
-pip install flask pyvibe ytmp3
+- pip install flask pyvibe ytmp3
 
 
 3. Run the application:
 
-python app.py
+- python app.py
 
 
 4. Open your browser and navigate to `http://localhost:5000` to access the application.
