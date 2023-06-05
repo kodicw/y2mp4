@@ -5,9 +5,9 @@ import re
 
 def download_video(url):
 
-    pattern = "https://youtu.be/*"
-    p = re.compile(pattern)
-    if p.match(url):
+    p = re.compile("https://youtu.be/*")
+    o = re.compile("https://www.youtube.com/*")
+    if p.match(url) or o.match(url):
         yt = YouTube(url)
         __import__('pprint').pprint(yt.streams)
         print('Video Downloaded Successfully')
